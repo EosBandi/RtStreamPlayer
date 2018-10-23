@@ -1,0 +1,14 @@
+prefix=../Codecs
+exec_prefix=${prefix}
+libdir=../Codecs/lib
+includedir=../Codecs/include
+
+Name: libavutil
+Description: FFmpeg utility library
+Version: 56.19.101
+Requires: 
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavutil user32.lib bcrypt.lib
+Libs.private: 
+Cflags: -I${includedir}
