@@ -70,25 +70,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x86\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\..\..\x86\lib32-msvc-14.1;$(ProjectDir)\..\..\x86\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x86_libs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\..\x86_libs\lib32-msvc-14.1;$(ProjectDir)\..\..\x86_libs\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x64\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\..\..\x64\lib64-msvc-14.1;$(ProjectDir)\..\..\x64\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x64_libs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\..\x64_libs\lib64-msvc-14.1;$(ProjectDir)\..\..\x64_libs\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x86\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\..\..\x86\lib32-msvc-14.1;$(ProjectDir)\..\..\x86\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x86_libs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\..\x86_libs\lib32-msvc-14.1;$(ProjectDir)\..\..\x86_libs\lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x64\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(ProjectDir)\..\..\x64\lib64-msvc-14.1;$(ProjectDir)\..\..\x64\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir)\..\..\boost_1_65_1;$(ProjectDir)\..\..\x64_libs\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)\..\..\x64_libs\lib64-msvc-14.1;$(ProjectDir)\..\..\x64_libs\lib;$(LibraryPath)</LibraryPath>
     <OutDir>$(SolutionDir)\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
